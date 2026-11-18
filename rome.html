@@ -28,7 +28,30 @@
     <a href="rome.html"><img src="img/rome.png" alt="rome"></a>
 </nav>
 
-<h1>Page 3</h1>
+<h1>Rome, Italy</h1>
+  <div class="image-row">
+
+    <img src="rome.jpg" alt="Colosseum in Rome, Italy" width="400">
+
+    <img src="rome3.jpg" alt="birds eye view of Rome skyline" width="400">
+
+    <img src="rome2.jpg" alt="Catherdral in Rome Italy" width="400">
+
+</div>
+  .image-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.image-row img {
+    width: 30%;
+    height: 250px;
+    object-fit: cover;
+}
 <p>This is page 3. It covers the third part of your idea.</p>
 <p>Write about it here.</p>
 
